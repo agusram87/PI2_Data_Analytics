@@ -45,7 +45,7 @@ En primer lugar importamos el dataset <strong>*'acceso_internet_1'*</strong> que
 
 Me pareció interesante mostrar la ***evolución en el tiempo de los accesos a internet por cada 100 hogares en Argentina*** utlizando un gráfico de líneas.
 
-![Alt text](img\image.png)
+![Alt text](img/image.png)
 
 
 Es interesante observar que el gráfico de líneas muestra una tendencia alcista en la cantidad de accesos a Internet por cada 100 hogares a lo largo del tiempo. Esto nos puede estar diciendo que, en general, ha habido un crecimiento en la disponibilidad de acceso a Internet en Argentina. Es un indicio positivo de que se ha logrado expandir el acceso a Internet y brindar servicios de comunicación a una mayor cantidad de hogares.
@@ -53,13 +53,13 @@ Sin embargo, es importante considerar que este análisis se basa en la cantidad 
 
 Ahora nos metemos un poco más en profundidad. Utilizo un gráfico de barras para mostrar  ***Accesos y velocidades en Argentina***. Con este gráfico podemos ver cántos son y que tan rápido se navega en las provincias de Argentina.
 
-![Alt text](img\image-1.png)
+![Alt text](img/image-1.png)
 
 Podemos concluir que la mayoría de las conexiones de banda ancha fija en Argentina se encuentran en el rango de velocidad de '+ 1 Mbps - 6 Mbps' con el 44.91% del total, seguidas de las velocidades de '+ 30 Mbps' aunque todavía existe una proporción significativa de conexiones con porcentajes más bajas.
 
 Me pareció interesante analizar la <strong>distribución de los accesos a internet por provincia (Accesos por cada 100 hogares)</strong>. Para ello me pareció adecuado hacerlo con un gráfico de barras.
 
-![Alt text](img\image-3.png)
+![Alt text](img/image-3.png)
  
 Si observamos, en el extremo izquierdo del gráfico, se encuentra "Capital Federal" con la mayor cantidad de accesos a internet por cada 100 hogares. Esto indica que es la provincia con la mayor proporción de hogares que tienen acceso a internet en comparación con las demás provincias.
 Por otro lado, en el extremo derecho del gráfico, encontramos "Formosa" con la menor cantidad de accesos a internet por cada 100 hogares. Esto sugiere que Formosa tiene una proporción más baja de hogares con acceso a internet en comparación con otras provincias.
@@ -70,26 +70,26 @@ Para abordar estas diferencias y mejorar el servicio, sería bueno realizar una 
 
 Ahora anelicemos <strong> velocidad de internet predominante en Formosa y Capital Federal</strong>.
 
-![Alt text](img\image-4.png)
+![Alt text](img/image-4.png)
 
 Esta diferencia en el panorama de velocidades de navegación entre Formosa y Capital Federal puede ser atribuible a diversos factores, como la infraestructura de telecomunicaciones disponible en cada provincia, el acceso a tecnologías de conexión de alta velocidad y las preferencias de los proveedores de servicios de Internet en cada área.
 
 Sin embargo, si vemos la <strong>evolución en el tiempo de las velocidades de conexión en Formosa</strong> podemos notar un crecimiento con notable en infrastrucura para brindar una mayor velocidad en este caso '+30 Mbps'
 
-![Alt text](img\image-5.png)
+![Alt text](img/image-5.png)
 
 En este caso tomé la velocidad de conexión que predomina en el en la provincia '+ 1 Mbps - 6 Mbps' en comparación la de '+30 Mbps' que es la vista al futuro. 
 A pesar de que en Formosa la conexión '+30 Mbps' tiene un porcentaje muy bajo con respecto a las otras provincias con mayor infraestrucura como por ejemplo 'Capital Federal', a partir del segundo trimestre del 2019 va en aumento. Lo que quiere decir que se está invirtiendo en insfraestructura para cubrir la demanda de los usuarios. 
 
 Enfoquemos el análisis un poco mas con el tipo de <strong>Tecnologías de acceso en Argentina</strong>
 
-![Alt text](img\image-6.png)
+![Alt text](img/image-6.png)
 
 En téminos del tipo de conexión podemos observar que Cablemodem con un 49.97% del total por tecnología de acceso, podemos afirmar que se establece como la tecnología mas importante y con mayor proyección hasta el 20222, seguido de  la tecnología ADSL con un 36.85%, seguido la Fibra Óptica con 8.96%, la tecnología Wireless con el 2.73% y Otros con el 1.49%.
 
 Vemos la evolución des estas tecnologías en el tiempo:
 
-![Alt text](img\image-8.png)
+![Alt text](img/image-8.png)
 
 Con este gráfico vemos que, a pesar de que 'Cablemódem' se sobrepone de forma ascendente con respecto a las otras conexiones, la conexión de Fibra óptica ha tenido un impulso ascendente imortante a partir del año 2018. Podemos concluir que hubo un mayor desarrollo de infraestructura, así como despliegue de redes de fibra óptica para soportar el ancho de banda que se demanda en la actualidad.
 
@@ -99,7 +99,7 @@ Para el <strong>dashboard</strong> utilizamos la herramienta <strong>POWER BI</s
 
 - <strong>Descripción:</strong> Antes de comenzar, me gustaría establecer los objetivos de nuestro análisis. Es decir, lo que me gustaría lograr al explorar el acceso a internet en Argentina. La intención es comprender la infraestructura y la calidad del acceso a Internet en el país: Me parece interesante investigar y analizar la infraestructura de banda ancha en Argentina, incluyendo la cobertura geográfica, la velocidad de conexión y la estabilidad del servicio. Esto me permitiría comprender cómo la calidad del acceso a Internet podría afectar la vida cotidiana de los argentinos y su capacidad para acceder a información, recursos y oportunidades en línea. Investigar la brecha digital: para explorar cómo se distribuye el acceso a Internet en Argentina y si existe una brecha digital entre distintas regiones, áreas urbanas y rurales, grupos socioeconómicos y generaciones. Comprender estas disparidades podría ayudar a identificar posibles desafíos y oportunidades para cerrar la brecha digital y garantizar un acceso equitativo a la información y la tecnología.
 
-![Alt text](img\dashboard.jpeg)
+![Alt text](img/dashboard.jpeg)
 
 En este proyecto, se han analizado los conjuntos de datos sobre el acceso a Internet en Argentina. Se han realizado exploraciones descriptivas y se han creado visualizaciones interactivas utilizando Power BI. El dashboard proporciona información detallada sobre las velocidades de conexión, la distribución de banda ancha fija y otros aspectos relevantes en diferentes provincias del país.
 
